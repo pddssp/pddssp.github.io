@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title>markdown 语法</title>
+      <link href="/2018/10/25/markdown/"/>
+      <url>/2018/10/25/markdown/</url>
+      
+        <content type="html"><![CDATA[<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>….</p><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><p><a href="http://www.baidu.com" target="_blank" rel="noopener">点我</a>跳转到百度<br><a href="链接地址">连接名字</a></p><h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><p><a href="http://www.baidu.com" target="_blank" rel="noopener"><img src="http://img2.imgtn.bdimg.com/it/u=3434875469,1941132343&amp;fm=26&amp;gp=0.jpg" alt="不锈钢盆"></a></p><h1 id="图片链接网址"><a href="#图片链接网址" class="headerlink" title="图片链接网址"></a>图片链接网址</h1><p><a href="超链接地址">!图片名字](图片链接)</a></p><h1 id="文本修饰"><a href="#文本修饰" class="headerlink" title="文本修饰"></a>文本修饰</h1><p><em>文本倾斜</em><br><strong>文本加粗</strong><br><strong><em>加粗倾斜效果</em></strong><br><del>删除线</del></p><h1 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h1><h2 id="三个或者三个以上的-或者"><a href="#三个或者三个以上的-或者" class="headerlink" title="三个或者三个以上的-或者*"></a>三个或者三个以上的-或者*</h2><hr><h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><ol><li>张三</li></ol><hr><ol start="2"><li>李四</li></ol><hr><ol start="3"><li>王总</li></ol><hr><h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><p>以一个 - + * 开头的</p><ul><li>列表一</li><li>列表二</li><li>列表三</li></ul><h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><table><thead><tr><th>姓名</th><th>排行</th><th>特长</th></tr></thead><tbody><tr><td>刘备</td><td>老大</td><td>哭</td></tr><tr><td>关于长</td><td>老二</td><td>打</td></tr><tr><td>张飞</td><td>老三</td><td>骂</td></tr></tbody></table><h1 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h1><pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">while</span> <span class="token punctuation">(</span>alive<span class="token punctuation">)</span> <span class="token punctuation">{</span>    <span class="token function">code</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token function">eat</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token function">sleep</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span></code></pre><pre class=" language-css"><code class="language-css"><span class="token selector">body</span><span class="token punctuation">{</span>    <span class="token property">color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span>    <span class="token property">font-size</span><span class="token punctuation">:</span><span class="token number">15</span>px<span class="token punctuation">;</span><span class="token punctuation">}</span></code></pre>]]></content>
+      
+      
+      
+    </entry>
+    
+    <entry>
+      <title>hexo+github搭建个人博客</title>
+      <link href="/2018/10/24/%E9%98%BF%E4%BF%AE%E7%BD%97%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80/"/>
+      <url>/2018/10/24/%E9%98%BF%E4%BF%AE%E7%BD%97%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80/</url>
+      
+        <content type="html"><![CDATA[<h1 id="基础环境搭建"><a href="#基础环境搭建" class="headerlink" title="基础环境搭建"></a>基础环境搭建</h1><h1 id="node"><a href="#node" class="headerlink" title="node"></a>node</h1><p>why？因为hexo是一款基于node开发出来的博客框架<br>what？基于javascript语法的一款web服务器<br>how？打开官网：<br>    <a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/</a><br>    下载8.x的版本，双击下一步下一步安装</p><hr><h1 id="git"><a href="#git" class="headerlink" title="git"></a>git</h1><p>what？版本控制器<br>github？全球最大的开源代码托管平台<br>why？通过github托管博客项目<br>how？打开官网:<br>    <a href="https://git-scm.com/" target="_blank" rel="noopener">https://git-scm.com/</a><br>    下载git安装包</p><h1 id="项目环境搭建"><a href="#项目环境搭建" class="headerlink" title="项目环境搭建"></a>项目环境搭建</h1><p>1、安装hexo脚手架（框架）：通过npm包管理器<br>npm install hexo-cli -g（电脑程序代码查询）<br>npm:基于node的包管理器（类似于apple store）<br>install：导入、安装（也可以光用i）<br>hexo-cli:hexo脚手架<br>-g:全局（整台电脑都可以用）</p><p>ps：npm切换淘宝镜像（解决npm国际慢）；<br>npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p><h1 id="初始化一个博客项目"><a href="#初始化一个博客项目" class="headerlink" title="初始化一个博客项目"></a>初始化一个博客项目</h1><p>1、在桌面右键“git bash here”<br>2、初始化<br>hexo init（初始化的意思） blog(随便的一个名字)<br>3、切换到blog文件夹<br>cd blog<br>4、安装项目依赖包<br>npm install</p><p>5、启动hexo服务<br>hexo s(如果显示bye！再重新打一遍hexo s  ，相当于可以加载进如网页)</p><h1 id="linux-常用命令"><a href="#linux-常用命令" class="headerlink" title="linux 常用命令"></a>linux 常用命令</h1><p>1、路径切换<br>cd 目录名（进入某个文件），程序里边的desktop/目录名<br>2、查看当前路径<br>pwd<br>3、查看当前路径所有文件及目录<br>ls -a<br>4、回到上级目录<br>cd ..</p><h1 id="以上启动博客步骤"><a href="#以上启动博客步骤" class="headerlink" title="以上启动博客步骤"></a>以上启动博客步骤</h1><p>1、初始化博客项目<br>hexo init blog<br>2、切换到博客路径<br>cd blog<br>3、安装依赖包<br>npm install<br>4、启动hexo服务<br>hexo s</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    <entry>
+      <title>套你猴子！</title>
+      <link href="/2018/10/24/hello-world/"/>
+      <url>/2018/10/24/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>啊？我什么身份！</p>]]></content>
+      
+      
+      
+    </entry>
+    
+  
+  
+</search>
